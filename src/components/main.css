@@ -1,0 +1,27 @@
+.main-wrapper {
+  /* border: 1px solid red; */
+  width: 55rem;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  background: rgb(253, 253, 253);
+  padding: 0.6rem;
+  border-radius: 10px;
+}
+.left-wrapper {
+  /* border: 1px solid red; */
+  background-image: url(../assets/images/bg-sidebar-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1.5rem;
+  width: 100%;
+  background-position: center;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+h4{
+  padding: 0.4rem 0;
+}

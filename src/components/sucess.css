@@ -1,0 +1,22 @@
+.sucess-wrapper{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+.sucess-wrapper img{
+    width: 70px;
+}
+.sucess-wrapper h3{
+    font-size: 2rem;
+    color: hsl(213, 96%, 18%);
+    font-weight: 600;
+}
+.sucess-wrapper p{
+    color: hsl(231, 11%, 63%);
+    max-width: 75%;
+    line-height: 1.5rem;
+    text-align: center;
+}

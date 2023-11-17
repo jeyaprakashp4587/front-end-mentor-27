@@ -1,0 +1,95 @@
+.summary-wrapper {
+  display: grid;
+  grid-template-rows: 20% 65% 10%;
+  height: 100%;
+  padding: 2rem 5rem;
+  row-gap: 0.8rem;
+}
+.summary-header h3 {
+  color: hsl(213, 96%, 18%);
+  font-size: 1.5rem;
+  padding: 0.6rem 0;
+}
+.summary-header p {
+  color: hsl(231, 11%, 63%);
+}
+.summary-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.summary-footer button:nth-child(2) {
+  background: hsl(213, 96%, 18%);
+  color: white;
+  /* font-weight: 600; */
+  padding: 0.6rem 1.6rem;
+  border-radius: 5px;
+  border: none;
+  &:hover{
+    background: hsl(228, 100%, 84%);
+    transition: .5s;
+  }
+}
+.summary-footer button:nth-child(1) {
+  background: white;
+  color: hsl(231, 11%, 63%);
+  /* font-weight: 600; */
+  /* padding: 0.6rem 1.3rem; */
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+}
+.summary-content{
+    display: grid;
+    grid-template-rows: 70% 20%;
+     /* border: 1px solid blue; */
+}
+.summary-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: hsl(229, 24%, 87%);
+    /* border: 1px solid red; */
+    padding: 1rem;
+}
+.summary-boxes:nth-child(1){
+    border-radius: 5px 5px 0 0 ;
+    /* border: 1px solid blue; */
+}
+.summary-boxes:nth-child(3){
+    border-radius: 0px 0px 5px 5px ;
+     /* border: 1px solid blue; */
+}
+.summary-boxes h4{
+    color: hsl(231, 11%, 63%);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.summary-boxes p{
+    text-decoration: underline;
+    color: hsl(231, 11%, 63%);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.summary-boxes p:hover{
+    transition: .5s;
+    font-size: 1.1rem;
+    color: hsl(213, 96%, 18%);
+    font-weight: 600;
+}
+.summary-boxes span{
+    color: hsl(213, 96%, 18%);
+}
+.summary-total-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+.summary-total-box h4{
+    color: hsl(231, 11%, 63%);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.summary-total-box span{
+    font-size: 1.1rem;
+}
